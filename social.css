@@ -28,6 +28,7 @@ ul li a .fa {
   line-height:80px;
   transition: .5s;
   padding-right: 14px;
+  color: #fff;
 }
 
 ul li a span {
@@ -35,7 +36,7 @@ ul li a span {
   margin:0;
   position:absolute;
   top: 30px;
-  color: #262626;
+  color: #fff;
   letter-spacing: 4px;
   transition: .5s;
 }
@@ -46,13 +47,14 @@ ul li a {
   display:block;
   width:210px;
   height:80px;
-  background: #fff;
+  background: #1A1E1E;
   text-align:left;
   padding-left: 20px;
   transform: rotate(-30deg) skew(25deg) translate(0,0);
   transition:.5s;
   box-shadow: -20px 20px 10px rgba(0,0,0,.5);
 }
+
 ul li a:before {
   content: '';
   position: absolute;
@@ -60,7 +62,7 @@ ul li a:before {
   left:-20px;
   height:100%;
   width:20px;
-  background: #b1b1b1;
+  background: #343639;
   transform: .5s;
   transform: rotate(0deg) skewY(-45deg);
 }
@@ -71,7 +73,7 @@ ul li a:after {
   left:-10px;
   height:20px;
   width:100%;
-  background: #b1b1b1;
+  background: #434549;
   transform: .5s;
   transform: rotate(0deg) skewX(-45deg);
 }
