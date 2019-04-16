@@ -1,9 +1,10 @@
 body {
   margin:0;
   padding:0;
-  background:#ccc;
+  /* background:#ccc; */
   font-family: 'Roboto Condensed', sans-serif;
-
+  background: #3c40c6;
+  background-image: url(https://flatuicolors.com/static/img/stars-opacity.0979c1.svg);
 }
 
 ul {
@@ -130,4 +131,24 @@ ul li:hover:nth-child(4) a:before{
 }
 ul li:hover:nth-child(4) a:after{
   background: #859ae5;
+}
+
+#carrot {
+  position: absolute;
+  top: 75%;
+  left: 83%;
+  height: 25%;
+  width: 16%;
+  background-image: url("https://static-cdn.jtvnw.net/jtv_user_pictures/panel-196520268-image-ef824ad9-803c-4d51-acaa-78c95b2c5ac0");
+  background-repeat: no-repeat;
+}
+
+#social {
+  height: 10%;
+  width: 15%;
+  background-image: url("https://i.imgur.com/QBRBWhC.png");
+  background-repeat: no-repeat;
+  margin-left: 42%;
+  margin-top: 6%;
+  background-size: contain;
 }
