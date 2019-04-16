@@ -88,6 +88,7 @@ ul li:hover span {
   color:#fff;
 }
 
+/* FACEBOOK */
 ul li:hover:nth-child(1) a{
   background: #3b5998;
 }
@@ -98,6 +99,7 @@ ul li:hover:nth-child(1) a:after{
   background: #4a69ad;
 }
 
+/* TWITTER */
 ul li:hover:nth-child(2) a{
   background: #00aced;
 }
@@ -108,22 +110,24 @@ ul li:hover:nth-child(2) a:after{
   background: #53b9e0;
 }
 
+/* INSTAGRAM */
 ul li:hover:nth-child(3) a{
-  background: #dd4b39;
-}
-ul li:hover:nth-child(3) a:before{
-  background: #b33a2b;
-}
-ul li:hover:nth-child(3) a:after{
-  background: #e66a5a;
-}
-
-ul li:hover:nth-child(4) a{
   background: #e4405f;
 }
-ul li:hover:nth-child(4) a:before{
+ul li:hover:nth-child(3) a:before{
   background: #d81c3f;
 }
-ul li:hover:nth-child(4) a:after{
+ul li:hover:nth-child(3) a:after{
   background: #e46880;
+}
+
+/* DISCORD */
+ul li:hover:nth-child(4) a{
+  background: #7289DA;
+}
+ul li:hover:nth-child(4) a:before{
+  background: #5970c1;
+}
+ul li:hover:nth-child(4) a:after{
+  background: #859ae5;
 }
